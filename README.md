@@ -12,6 +12,14 @@ Quick script to decode I/O control values for Windows drivers:
 `Usage: example.py 0x222003`
 
 ## Output
+```terminal_session
+root@kali# ./ioctl.py 0x2222CE                                      
+[*] Device Type: FILE_DEVICE_UNKNOWN
+[*] Function Code: 0x8b3
+[*] Access Check: FILE_ANY_ACCESS
+[*] I/O Method: METHOD_OUT_DIRECT
+[*] CTL_CODE(FILE_DEVICE_UNKNOWN, 0x8b3, METHOD_OUT_DIRECT, FILE_ANY_ACCESS)
+```
 
 
 ## Notes
