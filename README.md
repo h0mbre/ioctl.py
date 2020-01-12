@@ -11,6 +11,9 @@ Quick script to decode I/O control values for Windows drivers:
 
 `Usage: example.py 0x222003`
 
+## Output
+
+
 ## Notes
 Harcoded dictionary values come from: `ntddk.h`, `devioctl.h`, and `irclass_ioctl.h`. 
 
