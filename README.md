@@ -8,4 +8,5 @@ Quick script to decode I/O control values for Windows drivers:
 
 ## Usage
 `Usage: example.py <ioctl code>
+
 Usage: example.py 0x222003`
