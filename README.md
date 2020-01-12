@@ -7,6 +7,6 @@ Quick script to decode I/O control values for Windows drivers:
 + Output `CTL_CODE` macro template.
 
 ## Usage
-`Usage: example.py <ioctl code>
+`Usage: example.py <ioctl code>`
 
-Usage: example.py 0x222003`
+`Usage: example.py 0x222003`
